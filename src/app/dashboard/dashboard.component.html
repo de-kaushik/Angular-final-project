@@ -1,0 +1,13 @@
+<div class="main">
+    <div class="course"> 
+        <app-all-courses>
+            <div (total)=doSomething($event)></div>
+
+        </app-all-courses>
+
+    </div>
+    <div class="cart"> 
+        <app-cart-details [total]="total"></app-cart-details>
+    </div>
+</div>
+

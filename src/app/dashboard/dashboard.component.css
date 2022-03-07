@@ -1,0 +1,17 @@
+
+.main{
+    display: grid;
+    grid-template-columns: 2fr 1fr;
+    height: 600px;
+    width:90%;
+    margin: auto;
+}
+
+
+.course{
+    background-color: red;
+
+}
+.cart{
+  background-color: yellow;
+}

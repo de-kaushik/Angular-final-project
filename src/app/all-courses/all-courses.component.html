@@ -1,0 +1,25 @@
+<div class="content">
+    <div class="heading">
+        <div class="course-title"> ALl courses</div>
+        <div class="sort-toggle"> sort</div>
+    </div>
+    <div class="sort">
+      <button (click)="sorting()">sort</button>
+    </div>
+    
+    <div class="courses" *ngFor="let item of c">
+        <div class="card" (click)="goToCourse()">
+            <img class="card-img-top" src="..." alt="Card image cap">
+            <div class="card-body">
+              <h5 class="card-title"> {{item.title}}</h5>
+              <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+              <button (click)="addToCart(item)"> Add to cart</button>
+              <button (click)="addToWishList(item)"> Add to wishList</button>
+              <button (click)="gotoCourse(item)"> > </button>
+
+
+            </div>
+          </div>
+    </div>
+    
+</div>
